@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Photos by Roy</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <style>
+    /* Additional CSS for photo layout */
+    .photo-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    .photo-item {
+      width: 48%; /* Two photos per row with a little spacing */
+      margin-bottom: 15px;
+    }
+
+    .photo-item img {
+      width: 100%; /* Make the images responsive */
+      max-width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    /* Style for the navigation links in the header */
+    header2 nav ul li a {
+      color: navy; /* Change link color to navy-blue */
+    }
+  </style>
+</head>
+<body>
+  <!-- Header Section -->
+  <header2>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="photos.html">Photos</a></li>
+        <!-- Add other navigation links as needed -->
+      </ul>
+    </nav>
+  </header2>
+
+  <!-- Photo Gallery Section -->
+  <div class="photo-gallery">
+    <h1>My Photos</h1>
+    <div class="photo-container">
+      <div class="photo-item">
+        <img src="1.jpg" alt="Photo 1">
+      </div>
+      <div class="photo-item">
+        <img src="2.jpg" alt="Photo 2">
+      </div>
+      <div class="photo-item">
+        <img src="3.jpg" alt="Photo 3">
+      </div>
+      <div class="photo-item">
+        <img src="4.jpg" alt="Photo 4">
+      </div>
+      <div class="photo-item">
+        <img src="5.jpg" alt="Photo 5">
+      </div>
+      <div class="photo-item">
+        <img src="6.jpg" alt="Photo 6">
+      </div>
+      <!-- Add more photo items as needed -->
+    </div>
+  </div>
+
+  <!-- Footer Section (You can copy the footer from index.html) -->
+  <footer>
+    <!-- Copy your footer content from index.html here -->
+  </footer>
+</body>
+</html>
